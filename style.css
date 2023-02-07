@@ -9,6 +9,7 @@
     --color-red: #DC2428;
 }
 
+
 header {
     display: flex;
     flex-direction: column;
@@ -160,14 +161,85 @@ nav {
 }
 
 .tratamentos {
-    width: 21.688rem;    
+    width: 23rem;    
     height: 13.438rem;    
     grid-area: "tratamentos";
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
     
 }
 
+.imgTratamentos {
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+}
 
+.titleTratamento{
+    margin-top: 3rem;
+    color: var(--color-red);
+}
+
+.txtTratamento{
+    position: relative;
+    top: -1.2rem;
+    left: 2rem;   
+
+}
+
+.terceiroContainer{   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:  #FCF8F5;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    height: 51.5rem;  
+}
+
+.tratamentoDermatologico{
+    width: 87.5rem;
+    border: 1px solid black;     
+    background-color: #FCF8F5;     
+    display: flex;
+    align-items: center;
+    
+}
+
+.divImagem{
+    
+    margin: 5rem 6rem 0rem 5rem;
+}
+
+.divImagem > img {
+    width: 28rem;
+}
+
+.divTextos {   
+    max-width: 35rem;
+    
+}
+
+.divTextos > h2 {
+    font-size: 1.8rem;
+    color: var(--color-red);
+    
+}
+
+.divTextos > p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.divTextos > ul {
+    padding-left: 2rem;
+}
+
+#buttonTratamentos {
+    margin-top: 2rem;
+}
 
 
 
